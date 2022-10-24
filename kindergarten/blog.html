@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>School Website Design</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+</head>
+<body>
+<section class="sub-header">
+    <nav>
+        <a href="website.html"><img src="/website/pic/logo.png"></a>
+        <div class="nav-link" id="navLink">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="website.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="course.html">COURSE</a></li>
+                <li><a href="blog.html">BLOG</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+    <h1>Our Certifications & Programs for 2022</h1>
+        
+</section>
+
+
+
+<!---------blog----------->
+
+<section class="blog-content">
+
+        <div class="row">
+            <div class="blog-left">
+                <img src="/website/pic/certificate.jpg" alt="">
+                <h2>Our Certifications & Programs for 2022</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae mollitia animi in voluptatum aliquid at itaque eos ipsam, vel amet vero corporis tempore sed a ratione fugiat, saepe accusamus repellendus! Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi sint aperiam deserunt laboriosam excepturi tenetur voluptates dolore, id voluptatem a vel facilis reprehenderit, corrupti sit expedita necessitatibus dolorem sapiente adipisci.</p> <br> <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iusto necessitatibus suscipit molestiae molestias sint harum in cum quos ratione fugit quasi omnis ea totam eveniet nesciunt est alias, vero qui. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempore in sunt totam eum est, quo, possimus accusamus earum voluptatibus cum quam unde dolor commodi iste soluta quos! Hic, fuga quos?</p>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur consequatur molestiae reprehenderit molestias atque quos ipsum provident ullam. Repellendus iusto doloremque minus modi? Et tenetur repudiandae minima excepturi, quibusdam culpa? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci corrupti numquam obcaecati exercitationem, quae dolorum explicabo laborum accusamus. Dicta odit doloribus maiores vel repellat enim voluptatibus porro et illo. Aspernatur.</p>
+            
+                <div class="comment-box">
+
+                    <h3>Leave a comment</h3>
+
+                    <form class="comment-form">
+                        <input type="text" placeholder="Enter Name">
+                        <input type="email" placeholder="Enter Email">
+                        <textarea rows="5" placeholder="Your Comment"></textarea>
+                        <button type="submit" class="hero-bts red-bts">POST COMMENT</button>
+                    </form>
+                </div>
+            </div>
+            <div class="blog-right">
+                <h3>Post Categories</h3>
+                <div>
+                    <span>English Programs</span>
+                    <span>21</span>
+                </div>
+                <div>
+                    <span>Spanish Programs</span>
+                    <span>18</span>
+                </div>
+                <div>
+                    <span>Lao Programs</span>
+                    <span>45</span>
+                </div>
+                <div>
+                    <span>Chinese Programs</span>
+                    <span>23</span>
+                </div>
+                <div>
+                    <span>Vietnamese Programs</span>
+                    <span>28</span>
+                </div>
+            </div>
+        </div>
+</section>
+
+
+
+<!---------footer----------->
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem esse, enim voluptate accusamus expedita itaque vitae <br> exercitationem ducimus labore aspernatur tenetur commodi nisi. Repudiandae aut ab blanditiis!</p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+    <p>Made with <i class="fa fa-heart-o"></i> by Tony</p>
+</section>
+
+
+
+
+<!---------JS for toggle menu ----------->
+
+<script>
+
+    var navLink = document.getElementById("navLink");
+
+    function showMenu(){
+        navLink.style.right = "0";
+    }
+    function hideMenu(){
+        navLink.style.right = "-200px";
+    }
+
+</script>
+    
+</body>
+</html>
